@@ -1,0 +1,138 @@
+header{
+    border-bottom: solid #2CBCD6 5px;
+    
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: center;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+
+#menu-deroulant> li> div {
+    padding: 30px 0;
+}
+
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#menu-deroulant a:hover {
+    color: lightblue;
+}
+
+#menu-deroulant> li> div{
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    z-index: 1000;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#menu-deroulant> li> div> div{
+    width: 40%;
+}
+
+
+#menu-deroulant li:hover ul{
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+#menu-deroulant li:hover> div{
+/* Au survol des li du menu on replace les sous menus */
+    left: 0;
+    right: 0;
+    background-color: #2CBCD6;
+}
+
+#menu-deroulant> li> a{
+    color: #2CBCD6;
+    margin-right: 50px;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+#menu-deroulant> li> a:hover{
+    color: white;
+    background-color: #2CBCD6;
+}
+
+div> h2{
+    color: lightblue;
+}
+
+article> h2{
+    color: #2CBCD6;
+}
+
+.logo{
+    display: inline-block;
+}
+
+h1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    font-style: italic;
+    color: grey;
+}
+
+p{
+    color: grey;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+article{
+    margin: 60px;
+}
+
+footer{
+    text-align: center;
+    background-color: #2CBCD6;
+    padding: 20px 50px 50px 80px;
+    margin-top: 100px;
+}
+
+footer p{
+    width: 50px;
+    color: white;
+    display: flex;
+   display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+footer img{
+    display: block;
+    width: 40px;
+    margin: 2% auto;
+}

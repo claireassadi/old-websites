@@ -1,0 +1,10 @@
+body { 
+    padding-top: 300px; 
+}
+
+
+@media screen and (min-width:768px){
+    body { 
+        padding-top: 70px;
+    }
+}

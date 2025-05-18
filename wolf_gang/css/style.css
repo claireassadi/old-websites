@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+@font-face{
+    font-family: "bodega";
+    src: url(../fonts/BodegaSans_Black.ttf);
+}
+
+body{
+    background: url(../img/bg_body.svg);
+    background-color: #444444;
+}
+
+/*
+
+.__                         .___                
+|  |__    ____  _____     __| _/  ____  _______ 
+|  |  \ _/ __ \ \__  \   / __ | _/ __ \ \_  __ \
+|   Y  \\  ___/  / __ \_/ /_/ | \  ___/  |  | \/
+|___|  / \___  >(____  /\____ |  \___  > |__|   
+     \/      \/      \/      \/      \/         
+*/
+
+header{
+    background: linear-gradient(150deg, white 0%, white 50%, #333333 50%, #333333 100%);
+    display: block;
+    width: 80%;
+    margin: 24px auto 0 auto;
+    padding-top: 20px;
+}
+
+header img{
+    display: block;
+    margin: 0 auto 50px;
+}
+
+header nav{
+    display: inline;
+}
+
+header nav a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-family: bodega;
+    font-size: 1.5rem;
+    margin-right: 30px;
+    padding-bottom: 35px;
+}
+
+header nav a:hover{
+    color: #FF9D00;
+}
+
+/*
+
+
+                 .__         
+  _____  _____   |__|  ____  
+ /     \ \__  \  |  | /    \ 
+|  Y Y  \ / __ \_|  ||   |  \
+|__|_|  /(____  /|__||___|  /
+      \/      \/          \/ 
+
+*/
+
+h1{
+    color: white;
+    border-top: rgba(0, 0, 0, 0.075);
+    text-align: center;
+    font-family: bodega;
+    line-height: 2.5;
+}
+
+.flex-control-nav{
+    display: none;
+}
+
+.flexslider{
+    border: solid white 10px;
+    border-radius: 0;
+}
+
+
+h2{
+    color: white;
+    text-align: left;
+    font-family: bodega;
+    text-transform: uppercase;
+    border-top: solid #333333;
+    border-left: solid #333333;
+    padding: 20px 32px;
+    line-height: 2;
+}
+
+span{
+    color: #FF9D00;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+article img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+article{
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+h3{
+    color: #FF9D00;
+    text-align: center;
+    font-family: bodega;
+    font-size: 2rem;
+    border-bottom: solid #FF9D00;
+    display: block;
+    margin: 0;
+}
+
+article p{
+    text-align: center;
+    color: #707279;
+    font-family: 'Open Sans', sans-serif;
+}
+
+article a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF9D00;
+    padding: 17px 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div p{
+    color: #D0D0D0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-linkedin{
+    display: block;
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+video{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+
+  _____                   __                   
+_/ ____\  ____    ____  _/  |_   ____  _______ 
+\   __\  /  _ \  /  _ \ \   __\_/ __ \ \_  __ \
+ |  |   (  <_> )(  <_> ) |  |  \  ___/  |  | \/
+ |__|    \____/  \____/  |__|   \___  > |__|   
+                                    \/         
+
+*/
+
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 0px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 25px;
+    padding: 87px 20px 30px 20px;
+}
+
+footer p, footer a{
+    color: #D0D0D0;
+    border-bottom: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer h3{
+    color: #D0D0D0;
+    border-bottom: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: bodega;
+}
+
+section nav{
+    margin: 30px 20px;
+}
+
+section nav a{
+    line-height: 3.5;
+}
+
+footer img{
+    width: 40px;
+}
+
+
+
+
+
+/* TABLETTE */
+
+@media screen and (min-width:768px){
+    header{
+        background: linear-gradient(130deg, white 0%, white 50%, #333333 50%, #333333 100%);
+        display: block;
+        width: 90%;
+        margin: 30px auto;
+    }
+    
+    header img{
+        display: inline;
+        margin-left: 30px;
+    }
+    
+    header nav{
+        float: right;
+    }
+}
+
+
+
+
+/* PC */
+@media screen and (min-width:1024px){
+    
+    header{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 0;
+    }
+    
+    header img{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    header nav{
+        float: right;
+    }
+    
+    header nav a{
+        margin-right: 0;
+    }
+    
+    main, .header{
+        max-width: 1500px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .flexslider{
+        width: 100%;
+    }
+    
+    section{
+        width: 100%;
+    }
+    
+    section article{
+        width: 23%;
+        display: inline-block;
+        margin-right: 2.5%;
+    }
+    
+    .exclus{
+        margin-right: 0;
+    }
+    
+    section div{
+        display: inline-block;
+        width: 47%;
+        padding-right: 15px;
+        vertical-align: top;
+    }
+    
+    section div p{
+        margin-top: 0;
+    }
+    
+    .fa-facebook-square, .fa-twitter-square, .fa-linkedin{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    
+    video{
+        display: inline;
+        width: 50%;
+    }
+    
+    footer{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    section nav a{
+        padding-right: 20px;
+    }
+}

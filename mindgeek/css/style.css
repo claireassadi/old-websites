@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+
+/*
+
+
+.__                         .___                
+|  |__    ____  _____     __| _/  ____  _______ 
+|  |  \ _/ __ \ \__  \   / __ | _/ __ \ \_  __ \
+|   Y  \\  ___/  / __ \_/ /_/ | \  ___/  |  | \/
+|___|  / \___  >(____  /\____ |  \___  > |__|   
+     \/      \/      \/      \/      \/         
+
+
+*/
+
+header{
+    padding-top: 50px;
+}
+
+header img{
+    margin-bottom: 40px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #213E4E;
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header nav a:hover{
+    color: #FB8B9B;
+}
+
+header nav a:hover .fa-users{
+    color: #213E4E;
+}
+
+header nav a:hover .fa-user{
+    color: #213E4E;
+}
+
+header nav a:hover .fa-cloud{
+    color: #213E4E;
+}
+
+header nav a:hover .fa-envelope{
+    color: #213E4E;
+}
+
+.fa-users, .fa-user, .fa-cloud, .fa-envelope{
+    color: #FB8B9B;
+}
+
+/*
+
+
+  _____                   __                   
+_/ ____\  ____    ____  _/  |_   ____  _______ 
+\   __\  /  _ \  /  _ \ \   __\_/ __ \ \_  __ \
+ |  |   (  <_> )(  <_> ) |  |  \  ___/  |  | \/
+ |__|    \____/  \____/  |__|   \___  > |__|   
+                                    \/         
+
+
+
+*/
+
+footer{
+    background-color: #213E4E;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Candal', sans-serif;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav a{
+    margin-bottom: 20px;
+}
+
+footer div{
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+}
+
+footer img{
+    width: 50px;
+    padding-top: 30px;
+}
+
+
+footer div p{
+    color: #A4B0CA;
+    font-size: 13px;
+}
+
+footer div a{
+    color: #DCDCDC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+/*
+
+                 .__          
+  _____  _____   |__|  ____   
+ /     \ \__  \  |  | /    \  
+|  Y Y  \ / __ \_|  ||   |  \ 
+|__|_|  /(____  /|__||___|  / 
+      \/      \/          \/  
+
+
+*/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.cherche{
+    background-color: #fb8a9b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0;
+    font-weight: lighter;
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: #fb8a9b;
+    border: none;
+}
+
+
+h2{
+    border-left: dashed #213E4E;
+    border-top: dashed #213E4E;
+    border-right: dashed #213E4E;
+    padding: 20px 20px;
+    color: #213E4E;
+    font-family: 'Candal', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+/*
+
+                                          ____ 
+______  _____      ____    ____          /_   |
+\____ \ \__  \    / ___\ _/ __ \          |   |
+|  |_> > / __ \_ / /_/  >\  ___/          |   |
+|   __/ (____  / \___  /  \___  >         |___|
+|__|         \/ /_____/       \/               
+
+
+*/
+
+
+.hebergeur{
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    line-height: 2;
+    padding: 30px 25px;
+}
+
+.accueil{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accueil article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#sauvegarde{
+    margin-bottom: 0;
+}
+
+.h3rose{
+    font-family: 'Candal', sans-serif;
+    color: #fb8a9b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+   font-family: 'Open Sans', sans-serif;
+    color: #fb8a9b;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.centre p{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+
+/*
+                                        ________          ________              _____  
+______  _____      ____    ____         \_____  \         \_____  \            /  |  | 
+\____ \ \__  \    / ___\ _/ __ \         /  ____/           _(__  <           /   |  |_
+|  |_> > / __ \_ / /_/  >\  ___/        /       \          /       \         /    ^   /
+|   __/ (____  / \___  /  \___  >       \_______ \        /______  /         \____   | 
+|__|         \/ /_____/       \/                \/               \/               |__| 
+
+*/
+
+
+.section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section article{
+    border: dashed #213E4E;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.h3{
+    background-color: #213E4E;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.h3commander{
+    background-color: #fb8a9b;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.section p{
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section ul{
+    color: grey;
+    margin: 10px 0;
+    list-style: circle;
+}
+
+.section li{
+    margin-bottom: 15px;
+}
+
+.prix{
+    font-weight: bold;
+    font-family: 'Candal', sans-serif;
+}
+
+
+/*
+
+                                                               __                     __   
+______  _____      ____    ____        ____    ____    ____  _/  |_ _____     ____  _/  |_ 
+\____ \ \__  \    / ___\ _/ __ \     _/ ___\  /  _ \  /    \ \   __\\__  \  _/ ___\ \   __\
+|  |_> > / __ \_ / /_/  >\  ___/     \  \___ (  <_> )|   |  \ |  |   / __ \_\  \___  |  |  
+|   __/ (____  / \___  /  \___  >     \___  > \____/ |___|  / |__|  (____  / \___  > |__|  
+|__|         \/ /_____/       \/          \/              \/             \/      \/        
+
+
+*/
+
+
+.section_contact{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 5px solid grey;
+}
+
+.section_contact article{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.fa-paper-plane, .fa-phone{
+    color: #fb8a9b;
+}
+
+iframe{
+    width: 100%;
+}
+
+.p{
+    color: grey;
+    font-weight: bold;
+}
+
+.mindgeek{
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.adresse{
+    color: grey;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.a{
+    color: #fb8a9b;
+    font-weight: lighter;
+    border-bottom: 0;
+}
+
+
+
+
+@media screen and (min-width:1024px){
+    
+    header nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

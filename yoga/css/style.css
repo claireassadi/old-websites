@@ -1,0 +1,420 @@
+*, *:before, *:after{
+    box-sizing:border-box;    
+}
+
+body{
+    background: url("../img/background_section.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+/*
+.__                         .___                
+|  |__    ____  _____     __| _/  ____  _______ 
+|  |  \ _/ __ \ \__  \   / __ | _/ __ \ \_  __ \
+|   Y  \\  ___/  / __ \_/ /_/ | \  ___/  |  | \/
+|___|  / \___  >(____  /\____ |  \___  > |__|   
+     \/      \/      \/      \/      \/        
+     */ 
+
+
+header{
+    background: url("../img/fond.jpg");
+    background-position: center;
+    height: 589px;
+}
+
+header nav{
+    font-size: 1.5em;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 29px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 0 45px;
+    display: inline-block;
+}
+
+.fa-home{
+    display: block;
+    margin-left: 17px;
+}
+
+.fa-book{
+    display: block;
+    margin-left: 35px;
+}
+
+.fa-image{
+    display: block;
+    margin-left: 50px;
+}
+
+.fa-envelope{
+    display: block;
+    margin-left: 60px;
+}
+
+header p{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    background: url("../img/fond.jpg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+
+h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 85px;
+    text-shadow: 5px 4px 20px black;
+}
+
+
+/*
+.__                         .___                
+|  |__    ____  _____     __| _/  ____  _______ 
+|  |  \ _/ __ \ \__  \   / __ | _/ __ \ \_  __ \
+|   Y  \\  ___/  / __ \_/ /_/ | \  ___/  |  | \/
+|___|  / \___  >(____  /\____ |  \___  > |__|   
+     \/      \/      \/      \/      \/        
+     */ 
+
+
+
+/*
+                 .__         
+  _____  _____   |__|  ____  
+ /     \ \__  \  |  | /    \ 
+|  Y Y  \ / __ \_|  ||   |  \
+|__|_|  /(____  /|__||___|  /
+      \/      \/          \/ 
+      */
+
+
+h2{
+    color: #616E7C;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0;
+}
+
+.h2{
+    padding-top: 100px;
+}
+
+.h22{
+    padding-top: 82px;
+}
+
+main section{
+    background-color: white;
+    color: #616E7C;
+    height: 450px;
+}
+
+main section article{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 80px;
+    padding-right: 50px;
+}
+
+            /*
+            
+  __                     __   
+_/  |_   ____    _______/  |_ 
+\   __\_/ __ \  /  ___/\   __\
+ |  |  \  ___/  \___ \  |  |  
+ |__|   \___  >/____  > |__|  
+            \/      \/        
+*/
+
+hr{
+   margin-left: 100px;
+   margin-right: 100px;
+   
+}
+
+hr[noshade]{
+    
+}
+
+hr[color]{
+    color: #E5D9E5;
+}
+
+hr[size]{
+    size: 1px;
+}
+
+
+            /*
+            
+  __                     __   
+_/  |_   ____    _______/  |_ 
+\   __\_/ __ \  /  ___/\   __\
+ |  |  \  ___/  \___ \  |  |  
+ |__|   \___  >/____  > |__|  
+            \/      \/        
+*/
+
+
+.secondA{
+    font-family: 'Playfair Display', serif;
+    float: right;
+    background-color: white;
+}
+
+
+.p1{
+    text-align: left;
+}
+
+.p2{
+    text-align: right;
+    padding-left: 50px;
+}
+
+.cours{
+    padding-left: 50px;
+    padding-right: 26px;
+    float: left;
+}
+
+.posture{
+    padding-left: 26px;
+    float: right;
+}
+
+/*
+
+                .__     .___        
+_____     ______|__|  __| _/  ____  
+\__  \   /  ___/|  | / __ | _/ __ \ 
+ / __ \_ \___ \ |  |/ /_/ | \  ___/ 
+(____  //____  >|__|\____ |  \___  >
+     \/      \/          \/      \/ 
+*/
+
+
+aside{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-left: 200px;
+}
+
+aside article{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 113px;
+}
+
+aside img{
+    width: 190px;
+}
+
+#cours{
+    padding-top: 90px;
+}
+
+aside p{
+    padding-bottom: 80px;
+}
+
+iframe{
+    width: 100%;
+    height: 450px;
+}
+
+/*
+  _____                   __                   
+_/ ____\  ____    ____  _/  |_   ____  _______ 
+\   __\  /  _ \  /  _ \ \   __\_/ __ \ \_  __ \
+ |  |   (  <_> )(  <_> ) |  |  \  ___/  |  | \/
+ |__|    \____/  \____/  |__|   \___  > |__|   
+                                    \/       
+                                    */  
+
+
+footer{
+    border-top: solid 10px white;
+}
+
+
+footer img{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 49%;
+    width: 37px;
+}
+
+
+footer p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer p a{
+    color: white;
+}
+
+
+
+
+/*
+_________                    __                     __   
+\_   ___ \   ____    ____  _/  |_ _____     ____  _/  |_ 
+/    \  \/  /  _ \  /    \ \   __\\__  \  _/ ___\ \   __\
+\     \____(  <_> )|   |  \ |  |   / __ \_\  \___  |  |  
+ \______  / \____/ |___|  / |__|  (____  / \___  > |__|  
+        \/              \/             \/      \/        
+*/
+
+
+table{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #D0D0D0;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    color: #37495F;
+    font-family: 'Playfair Display', serif;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+th{
+    background-color: #C4A5DE;
+    background-size: cover;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    text-align: left;
+    padding: 20px 0 15px 32px;
+    font-size: 1.6em;
+}
+
+th, td{
+    border: 1px solid #D0D0D0;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 18px 0 15px 0;
+}
+
+tr :first-child{
+    text-align: left;
+    padding-left: 12px;
+}
+
+tbody tr a{
+    color: #8B5BC1;
+    text-decoration: none;
+}
+
+#main_contact{
+    background-color: white;
+}
+
+#reservation{
+    padding-top: 60PX;
+}
+
+#validation{
+    color: #616E7C;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0;
+    font-size: 1.6em;
+}
+
+.coordonees{
+    margin-right: 70px;
+}
+
+#checkbox{
+    margin-right: 28px;
+}
+
+#oui{
+    margin-right: 30px;
+}
+
+#connu{
+    padding: 7px 80% 7px 7px;
+
+}
+
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.infos{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #37495F;
+    font-family: 'Playfair Display', serif;
+    padding: 35px 0 30px 0;
+}
+
+.fidelite{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #37495F;
+    font-family: 'Playfair Display', serif;
+    padding: 35px 0 20px 0;
+}
+
+.connus{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #37495F;
+    font-family: 'Playfair Display', serif;
+    padding: 35px 0 37px 0;
+}
+
+.envoyer{
+    width: 90%;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+    border: 0;
+}
+
+button{
+    background-color: #8B5BC1;
+    border: none;
+    padding: 11px 23px 11px 23px;
+    color: white;
+}
+
